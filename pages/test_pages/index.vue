@@ -11,7 +11,7 @@
 					</view>
 				</view>
 				<view class="card_two">
-					内含3000元优惠券ffsg
+					内含3000元优惠券
 				</view>
 				<view class="card_three">
 					<view class="card_six">
@@ -214,67 +214,123 @@
 			</scroll-view>
 			
 		</view>
+		
+		
+		<view class="weal-box">
+			<view class="weal_left weal_seat">
+				<view class="weal_title">
+					刚需福利
+				</view>
+				<view class=weal_about>
+					公积金出新政
+				</view>
+			</view>
+			<view class="weal_r">
+				<view class="weal weal_bottom weal_seat">
+					<view class="weal_title">
+						2019房价怎么走
+					</view>
+					<view class=weal_about>
+						公积金出新政
+					</view>
+				</view>
+				<view class="weal weal_seat">
+					<view class="weal_title">
+						2019房价怎么走
+					</view>
+					<view class=weal_about>
+						公积金出新政
+					</view>
+				</view>
+			</view>
+		</view>\
+		
+		
+		<view class="shaper_box">
+			<view class="shaper_title">
+				造型
+			</view>
+			<swiper :indicator-dots="false" :autoplay="false" :interval="3000" :duration="1000"
+			next-margin="175rpx" previous-margin="175rpx"
+			current="1" circular>
+				<swiper-item class="shaper_center">
+					<view class="shaper_swiper-item">1</view>
+				</swiper-item>
+				<swiper-item class="shaper_center">
+					<view class="shaper_swiper-item shaper_bg">
+						<view class="shaper">
+							<view class="shaper_hot">
+								HOT
+							</view>
+							<!-- <view class="shaper_logo">
+								
+							</view> -->
+							
+						</view>
+						<view class="shaper_logo">
+							
+						</view>
+						<view class="shaper_nav">
+							<view class="shaper_name">
+								吉磊造型-阳阳
+							</view>
+							<view class="shaper_type">
+								高级造型师
+							</view>
+							<view class="shaper_grade">
+								<!-- <view class="star-five">1</view> -->
+							</view>
+						</view>
+					</view>
+				</swiper-item>
+				<swiper-item class="shaper_center">
+					<view class="shaper_swiper-item">3</view>
+				</swiper-item>
+			</swiper>
+			
+		</view>
+		
+		
+		
+		<!-- <view class="uni-padding-wrap">
+			<view class="page-section swiper">
+				<view class="page-section-spacing">
+					<swiper class="swiper" :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration">
+						<swiper-item>
+							<view class="swiper-item uni-bg-red">A</view>
+						</swiper-item>
+						<swiper-item>
+							<view class="swiper-item uni-bg-green">B</view>
+						</swiper-item>
+						<swiper-item>
+							<view class="swiper-item uni-bg-blue">C</view>
+						</swiper-item>
+					</swiper>
+				</view>
+			</view>
+		</view> -->
+		
+		<!-- <view class="movie-box">
+			
+		</view> -->
 	</view>
 </template>
 
 <script>
-	// var order = ['red', 'yellow', 'blue', 'green', 'red']
-	// Page({
-	//   data: {
-	//     toView: 'red',
-	//     scrollTop: 100
-	//   },
-	//   upper: function(e) {
-	//     console.log(e)
-	//   },
-	//   lower: function(e) {
-	//     console.log(e)
-	//   },
-	//   scroll: function(e) {
-	//     console.log(e)
-	//   },
-	//   tap: function(e) {
-	//     for (var i = 0; i < order.length; ++i) {
-	//       if (order[i] === this.data.toView) {
-	//         this.setData({
-	//           toView: order[i + 1]
-	//         })
-	//         break
-	//       }
-	//     }
-	//   },
-	//   tapMove: function(e) {
-	//     this.setData({
-	//       scrollTop: this.data.scrollTop + 10
-	//     })
-	//   }
-	// })
-
+	try {
+	    const res = uni.getSystemInfoSync();
+	    console.log(res.model);
+	    console.log(res.pixelRatio);
+	    console.log(res.windowWidth);
+	    console.log(res.windowHeight);
+	    console.log(res.language);
+	    console.log(res.version);
+	    console.log(res.platform);
+	} catch (e) {
+	    // error
+	}
 // 	export default {
 // 		data() {
-// 			hotList: [
-// 			        {
-// 			            pic: '/images/example2.png',
-// 			            title: '玻璃棧道',
-// 			            desc: '22W人去過'
-// 			        }, {
-// 			            pic: '/images/example2.png',
-// 			            title: '玻璃棧道',
-// 			            desc: '22W人去過'
-// 			        }, {
-// 			            pic: '/images/example2.png',
-// 			            title: '玻璃棧道',
-// 			            desc: '22W人去過'
-// 			        }, {
-// 			            pic: '/images/example2.png',
-// 			            title: '玻璃棧道',
-// 			            desc: '22W人去過'
-// 			        }, {
-// 			            pic: '/images/example2.png',
-// 			            title: '玻璃棧道',
-// 			            desc: '22W人去過'
-// 			        }]
-// 
 // 			return {
 // 				title: 'Hello'
 // 			}

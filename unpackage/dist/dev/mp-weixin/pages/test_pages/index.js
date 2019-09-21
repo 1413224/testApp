@@ -112,6 +112,105 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/* WEBPACK VAR INJECTION */(function(uni) { //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -332,63 +431,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
-// var order = ['red', 'yellow', 'blue', 'green', 'red']
-// Page({
-//   data: {
-//     toView: 'red',
-//     scrollTop: 100
-//   },
-//   upper: function(e) {
-//     console.log(e)
-//   },
-//   lower: function(e) {
-//     console.log(e)
-//   },
-//   scroll: function(e) {
-//     console.log(e)
-//   },
-//   tap: function(e) {
-//     for (var i = 0; i < order.length; ++i) {
-//       if (order[i] === this.data.toView) {
-//         this.setData({
-//           toView: order[i + 1]
-//         })
-//         break
-//       }
-//     }
-//   },
-//   tapMove: function(e) {
-//     this.setData({
-//       scrollTop: this.data.scrollTop + 10
-//     })
-//   }
-// })
+try {
+  var res = uni.getSystemInfoSync();
+  console.log(res.model);
+  console.log(res.pixelRatio);
+  console.log(res.windowWidth);
+  console.log(res.windowHeight);
+  console.log(res.language);
+  console.log(res.version);
+  console.log(res.platform);
+} catch (e) {
 
+} // error
 // 	export default {
 // 		data() {
-// 			hotList: [
-// 			        {
-// 			            pic: '/images/example2.png',
-// 			            title: '玻璃棧道',
-// 			            desc: '22W人去過'
-// 			        }, {
-// 			            pic: '/images/example2.png',
-// 			            title: '玻璃棧道',
-// 			            desc: '22W人去過'
-// 			        }, {
-// 			            pic: '/images/example2.png',
-// 			            title: '玻璃棧道',
-// 			            desc: '22W人去過'
-// 			        }, {
-// 			            pic: '/images/example2.png',
-// 			            title: '玻璃棧道',
-// 			            desc: '22W人去過'
-// 			        }, {
-// 			            pic: '/images/example2.png',
-// 			            title: '玻璃棧道',
-// 			            desc: '22W人去過'
-// 			        }]
-// 
 // 			return {
 // 				title: 'Hello'
 // 			}
@@ -400,7 +456,7 @@ __webpack_require__.r(__webpack_exports__);
 // 
 // 		}
 // 	}
-
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 /* 17 */

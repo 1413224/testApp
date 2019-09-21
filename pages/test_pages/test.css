@@ -340,3 +340,134 @@
 	padding-left: 19upx;
 	padding-bottom: 19upx;
 }
+.movie-box {
+	padding: 50upx 29upx 50upx 29upx;
+}
+.weal-box {
+	padding: 50upx 29upx 50upx 29upx;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
+.weal_left {
+	width: 335upx;
+	height: 420upx;
+	background: #007AFF;
+	margin-right: 20upx;
+}
+.weal_r {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 450upx;
+}
+.weal {
+	width: 337upx;
+	height: 200upx;
+	background: #222222;
+}
+.weal_bottom {
+	margin-bottom: 20upx;
+}
+.weal_title {
+	font-size: 28upx;
+	font-weight: bold;
+	padding-bottom: 10upx;
+}
+.weal_about {
+	font-size: 22upx;
+}
+.weal_seat {
+	padding-top: 34upx;
+	padding-left: 33upx;
+}
+
+
+.shaper_box {
+	
+}
+.shaper_title {
+	
+}
+.shaper_swiper-item {
+	/* width: 257upx; */
+	height: 338upx;
+	background: #007AFF;
+	margin: 0 20upx;
+}
+/* .shaper_center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
+.shaper_bg {
+	background: #fff;
+	border-radius: 20upx;
+	border: 1upx solid #333333;
+	/* overflow: hidden; */
+}
+.shaper {
+	width: 0;
+	height: 0;
+	/* border: 80px solid #F82EAA; */
+	/* border-top-left-radius: 20upx; */
+	border-top: 40px solid #F82EAA;
+	/* border-bottom: 80px solid transparent; */
+	border-right: 40px solid transparent;
+	display: flex;
+	position: relative;
+	/* overflow: hidden; */
+	/* border: 80px solid #F82EAA;
+	border-right: 80px solid transparent;
+	border-top: 80px solid transparent; 
+	border-top-left-radius: 20upx; */
+}
+.shaper_hot {
+	display: flex;
+	position: absolute;
+	top: -80upx;
+	left: 5upx;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform:rotate(-45deg); 
+	-o-transform:rotate(-45deg); 
+	-ms-transform:rotate(-45deg); 
+	transform:rotate(-45deg); 
+	color: #fff;
+	font-size: 22upx;
+	font-weight: bold;
+}
+.shaper_logo {
+	width: 130upx;
+	height: 130upx;
+	border-radius: 65upx;
+	border: 5upx solid #333333;
+	background: #26D4D5;
+	display: flex;
+	position: absolute;
+	top: 60upx;
+	left: 96upx;
+}
+.shaper_nav {
+	margin-top: 110upx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.shaper_name {
+	color: #222222;
+	font-size: 26upx;
+	padding-bottom: 16upx;
+}
+.shaper_type {
+	color: #777777;
+	font-size: 22upx;
+	padding-bottom: 19upx;
+}
+.shaper_grade {
+	width: 150upx;
+	height: 100upx;
+	/* background: #007AFF; */
+	justify-content: center;
+	display: flex;
+}
