@@ -1,8 +1,8 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],[
 /* 0 */
-/*!**************************************!*\
-  !*** E:/project/test_uniapp/main.js ***!
-  \**************************************/
+/*!**********************************!*\
+  !*** E:/project/testApp/main.js ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7476,9 +7476,9 @@ module.exports = g;
 
 /***/ }),
 /* 4 */
-/*!*****************************************!*\
-  !*** E:/project/test_uniapp/pages.json ***!
-  \*****************************************/
+/*!*************************************!*\
+  !*** E:/project/testApp/pages.json ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7598,9 +7598,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 11 */
-/*!****************************************************************************!*\
-  !*** E:/project/test_uniapp/main.js?{"page":"pages%2Ftest_pages%2Findex"} ***!
-  \****************************************************************************/
+/*!************************************************************************!*\
+  !*** E:/project/testApp/main.js?{"page":"pages%2Ftest_pages%2Findex"} ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7621,9 +7621,9 @@ createPage(_index.default);
 /* 17 */,
 /* 18 */,
 /* 19 */
-/*!***********************************************************************!*\
-  !*** E:/project/test_uniapp/main.js?{"page":"pages%2Findex%2Findex"} ***!
-  \***********************************************************************/
+/*!*******************************************************************!*\
+  !*** E:/project/testApp/main.js?{"page":"pages%2Findex%2Findex"} ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

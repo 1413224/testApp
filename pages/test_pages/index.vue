@@ -11,7 +11,7 @@
 					</view>
 				</view>
 				<view class="card_two">
-					内含3000元优惠券
+					内含3000元优惠券ffsg
 				</view>
 				<view class="card_three">
 					<view class="card_six">
