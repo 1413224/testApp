@@ -1,0 +1,202 @@
+<template>
+	<view class="content">
+		
+		<view class="box">
+			<view class="img_box">
+				<image class="logo_image" src="../../static/image_1.jpg" mode=""></image>
+			</view>
+			<view class="content">
+				<view class="title">
+					眼镜直通车江南西店
+				</view>
+				<view class="address">
+					广州市番禺区南村镇汉溪大道东381号番禺万达广场4层
+				</view>
+				<view class="content_bottom">
+					<view class="num">
+						300M
+					</view>
+					<view class="button">
+						查看
+					</view>
+				</view>
+			</view>
+		</view>
+		
+		
+		<view class="nav">
+			<view class="nav_one">
+				<view class="nav_three">
+					<image class="nav_room" src="../../static/image_2.jpg" mode=""></image>
+				</view>
+				<view class="nav_four">
+					<view class="nav_six">
+						高档按摩套间
+					</view>
+					<view class="nav_seven">
+						<view class="nav_eight">
+							
+						</view>
+						<view class="nav_nine">
+							521
+						</view>
+						<view class="nav_eight">
+							
+						</view>
+						<view class="nav_nine">
+							2000
+						</view>
+					</view>
+				</view>
+				<view class="nav_five">
+					预约
+				</view>
+			</view>
+			<view class="nav_two">
+				很适合烫卷出空气感的设计，头发线条丰盈灵动，凌乱感额慵懒风设计很有女人味。
+			</view>
+		</view>
+		
+		
+		<view class="hair">
+			<view class="hair_one">
+				<image class="hair_box" src="../../static/image_3.jpg" mode=""></image>
+			</view>
+			<view class="hair_two">
+				<view class="hair_three">
+					高级感韩式发型 卷度与发色造仙气
+				</view>
+				<view class="hair_four">
+					对于长脸女生来说，选择什么样的发型才能缩短脸部比例，修饰出更加精致的小脸呢
+				</view>
+				<view class="hair_five">
+					<view class="hair_six">
+						韩式发型
+					</view>
+					<view class="hair_seven">
+						4.28
+					</view>
+				</view>
+			</view>
+		</view>
+		
+		
+		<view class="time">
+			<view class="time_one">
+				<view class="time_three">
+					11:00-13:00
+				</view>
+				<view class="time_four">
+					<view class="time_five">
+						剩余名额
+					</view>
+					<view class="time_six">
+						10
+					</view>
+				</view>
+			</view>
+			<view class="time_two">
+				<view class="time_seven">
+					￥200.00
+				</view>
+				<view class="time_eight">
+				</view>
+			</view>
+		</view>
+		
+		<view class="English">
+			<view class="English_one">
+				<image class="English_image" src="../../static/image_4.jpg" mode=""></image>
+			</view>
+			<view class="English_two">
+				<view class="English_three">
+					零基础打造纯正英式口音
+				</view>
+				<view class="English_four">
+					《爱丽丝英音完全手册》完整科学的...习方案，从小白蜕变成大神，这一套课程就够了。
+				</view>
+				<view class="English_five">
+					干货
+				</view>
+				<view class="English_six">
+					<view class="English_seven">
+						五年级
+					</view>
+					<view class="English_eight">
+						
+					</view>
+					<view class="English_nine">
+						<view class="English_ele">
+							5120
+						</view>
+						<view class="English_twy">
+							人参与
+						</view>
+					</view>
+					<view class="English_ten">
+						免费
+					</view>
+				</view>
+			</view>
+		</view>
+		
+		
+		<view class="active">
+			<view class="active_icon">
+				
+			</view>
+			<view class="active_one">
+				<view class="active_three">
+					活动通知
+				</view>
+				<view class="active_four">
+					特惠返利，多充多送
+				</view>
+			</view>
+			<view class="active_two">
+				
+			</view>
+		</view>
+		
+		
+		<view class="home">
+			<view class="home_image">
+				<image class="home_logo" src="../../static/image_4.jpg" mode=""></image>
+			</view>
+			<view class="home_box">
+				<view class="home_one">
+					临近地铁站豪华两房一厅房东好人
+				</view>
+				<view class="home_two">
+					<view class="home_four">
+						两房一厅
+					</view>
+					<view class="home_five">
+					</viwe>
+
+				</view>
+			</view>
+		</view>
+	</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'Hello'
+			}
+		},
+		onLoad() {
+
+		},
+		methods: {
+
+		}
+	}
+</script>
+
+<style>
+@import url("./index.css");
+</style>
